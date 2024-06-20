@@ -1,0 +1,22 @@
+
+.navbar-collapse {
+    justify-content: flex-end;
+}
+
+nav.bg-body-tertiary.navbar.navbar-expand-lg.navbar-light {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+    z-index: 1000; /* Ensure the navbar stays on top */
+}
+
+/* Ensure the navbar is fixed to the top */
+.fixed-top,#home {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Add padding to the top of the main content to prevent it from being hidden behind the navbar */
+.main-content {
+    padding-top: 70px; /* Adjust this value if your navbar height is different */
+}

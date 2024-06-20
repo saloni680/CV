@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+            "img":"image.png",
+            "title":"Weather App",
+            "description":"Using ReactJs and APi Integration Live weather details using pincode or city name",
+            "live_View":"https://saloni680.github.io/WApplication/"
+        },
+        {
+            "img":"Taximg.png",
+            "title":"Tax App",
+            "description":"Using ReactJs and can calculate tax based on given inputs",
+            "live_View":"https://saloni680.github.io/TaxCalci/"
+        },
+        {
+            "img":"staticPage.png",
+            "title":"Static Page",
+            "description":"Using ReactJs created a static imaginary webpage ",
+            "live_View":"https://avaesa.netlify.app/"
+        }
+    ]
+}

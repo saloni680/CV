@@ -1,0 +1,84 @@
+/* Ensure the page takes up at least 100% of the viewport height */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main container for your application */
+.mainbodydiv {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* The main content should expand to fill available space */
+.content {
+    flex: 1;
+}
+
+/* Footer styles */
+
+.MainFoot {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 5rem;
+    position: absolute;
+    left: 0;
+    margin-top: 20rem ;
+    width: 100%;
+    background-color: #F8F9FA; /* Adjust background color as needed */
+    box-shadow: 5px 5px 10px;
+}
+.iconsfooter{
+    font-size: xx-large;
+    gap: 20px;
+    display: flex;
+}
+.footer {
+   
+    background-color: #f8f9fa; /* Match the footer background */
+    padding: 1rem 0; /* Adjust padding as needed */
+    text-align: center; /* Center align the text */
+}
+
+.text-body {
+    color: #212529; /* Adjust text color as needed */
+}
+
+.footer-content {
+    padding: 1rem; /* Ensure padding is applied */
+}
+
+
+@media  (max-width:1100px) {
+    .MainFoot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+        position: absolute;
+        left: 0;
+        /* bottom: 0 !important; */
+        margin-top: 45rem !important;
+        width: 100%;
+        background-color: #F8F9FA; /* Adjust background color as needed */
+        box-shadow: 5px 5px 10px;
+    }   
+}
+@media  (max-width:850px) {
+    .MainFoot {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 5rem;
+        position: absolute;
+        left: 0;
+        /* bottom: 0 !important; */
+        margin-top: 60rem !important;
+        width: 100%;
+        background-color: #F8F9FA; /* Adjust background color as needed */
+        box-shadow: 5px 5px 10px;
+    }   
+}

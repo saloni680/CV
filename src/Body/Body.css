@@ -1,0 +1,356 @@
+.leftBody h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #0A2F55;
+}
+.leftBody{
+    margin-left: 100px;
+}
+.SectionBody{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10%;
+    margin-top: 10%;
+    margin-left: -80px;
+}
+#tex{
+    font-family: emoji;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typewriter 2s steps(30) infinite alternate, blink 900ms steps(25) infinite normal;
+    border-right: 5px solid black;  
+    color: white;  
+}
+@keyframes typewriter {
+    0% {
+        width: 0%;
+    }
+    100% {
+        width: 110%;
+    }
+}
+
+.outerImage{
+    height: 450px;
+    width: 450px;
+    border-radius: 80%;
+    background: #FFF9DB;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    background-size: cover;
+}
+ 
+.outerImage img{
+    height: 450px;
+    width: 450px;
+    border-radius: 50%;
+    position: relative;
+    /* top: 6%; */
+    animation: move 2.3s infinite linear;
+}
+@keyframes move {
+0%{
+    transform: translateX(-130%);
+    opacity: 0;
+}
+25%{
+    transform: translateX(-50%);
+    opacity: 0.4;
+}
+50%{
+    transform: none;
+    opacity: 1;
+}
+60%{
+    transform: none;
+    opacity: 1;
+}
+75%{
+    transform: translateX(50%);
+    opacity: 0.6;
+}
+100%{
+
+    transform: translateX(130%);
+    opacity: 0;
+}
+}
+.Btns{
+    display: flex;
+    gap: 20px;
+}
+.hiremeBtn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 25px;
+    border-style: none;
+    box-shadow: 1px 1px 5px ;
+}
+.ResumeBtn{
+    height: 50px;
+    width: 150px;
+    border-radius: 10px;
+    font-size: 25px;
+    border-style: none;
+    box-shadow: 1px 1px 5px ;
+    background-color: #bfe9ff;
+    color: black;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+.hiremeBtn:hover, .ResumeBtn:hover{
+    box-shadow: 1px 1px 5px inset;
+}
+
+.ResumeBtn:hover{
+    box-shadow: 1px 1px 5px inset ;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    font-size: 30px;
+    gap: 20px;
+}
+
+.ghub{
+    height: 50px;
+    width: 50px;
+    /* border: 2px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+.ghub:hover{
+    background-color: black;
+    color: white;
+    font-size: 32px;
+}
+
+/* Responsive Styles */
+
+@media (min-width:1200px) {
+    /* .leftBody {
+        margin-right: 40px !important ; */
+    /* } */
+    .SectionBody {
+        margin-left: -150px;
+    }
+    .outerImage, .outerImage img {
+        height: 400px;
+        width: 400px;
+    }
+}
+@media (max-width: 1200px) {
+    .leftBody {
+        margin-right: -70px !important;
+    }
+    .SectionBody {
+        margin-left: -80px;
+    }
+    .outerImage, .outerImage img {
+        height: 400px;
+        width: 400px;
+    }
+}
+@media (max-width:1100px) {
+    .leftBody {
+        margin-left: -50px !important ;
+    }
+    .SectionBody {
+        margin-left: 100px;
+    }
+    .outerImage, .outerImage img {
+        height: 300px;
+        width: 300px;
+    }
+    .rightBody{
+        margin-left: -150px;
+    }
+    .hiremeBtn{
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        font-size: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px ;
+        margin-left:50px
+    }
+    .ResumeBtn{
+        height: 50px;
+        width: 150px;
+        border-radius: 10px;
+        font-size: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px ;
+        background-color: #3D9970;
+        color: white;
+    }
+}
+@media (max-width:1000px) {
+    .SectionBody{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 10%;
+        /* margin-top: 10%; */
+        margin-left: 100px;
+    }
+    .rightBody{
+        margin-top: 50px;
+        margin-left: -150px;
+    }
+    .outerImage, .outerImage img {
+        height: 400px;
+        width: 400px;
+    }   
+}
+@media  (max-width:800px) {
+    .leftBody{
+        margin-left: -200px !important;
+    }
+      
+    .icons{
+        margin-left: 5rem;
+    }
+    .leftBody h1 {
+        font-size: 30px;
+        font-weight: 700;
+        color: #0A2F55;
+    }
+    .hiremeBtn{
+        margin-left:5px
+    }
+}
+@media (min-width:501) and (max-width:541px) {
+    .SectionBody{
+        
+        margin-top: 25%;
+    }
+    .leftBody{
+        margin-left: -200px !important;
+    }
+}
+@media (max-width:500px){
+    .outerImage, .outerImage img {
+        height: 300px;
+        width: 300px;
+        margin-left: 60px;
+    }  
+    .SectionBody{
+        
+        margin-top: 25%;
+    }
+}
+@media (max-width:380px) {
+    .leftBody h1 {
+        font-size: 25px;
+        font-weight: 700;
+        color: #0A2F55;
+    }
+    .SectionBody{
+        
+        margin-top: 25%;
+    }
+    @keyframes typewriter {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 80%;
+        }
+    }
+    .hiremeBtn{
+        height: 35px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 20px;
+        border-style: none;
+        box-shadow: 1px 1px 5px ;
+    }
+    .ResumeBtn{
+        height: 35px;
+        width: 90px;
+        border-radius: 5px;
+        font-size: 20px;
+        border-style: none;
+        box-shadow: 1px 1px 5px ;
+        background-color: #3D9970;
+        color: white;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        margin-left: 1px;
+        font-size: 20px;
+        gap: 10px;
+    }
+}
+@media (max-width:321px) {
+    .SectionBody{
+        
+        margin-top: 25%;
+    }
+    #tex{
+        font-family: emoji;
+        font-weight: 600;
+        white-space: nowrap;
+        overflow: hidden;
+        animation: typewriter 2s steps(30) infinite alternate, blink 900ms steps(25) infinite normal;
+        border-right: 5px solid black;  
+        color: white;  
+        font-size: 20px !important;
+    }
+    @keyframes typewriter {
+        0% {
+            width: 0%;
+        }
+        100% {
+            width: 80%;
+        }
+    }
+    .Btns{
+        display: flex;
+        gap: 10px;
+    }
+    .hiremeBtn{
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px ;
+    }
+    .ResumeBtn{
+        height: 40px;
+        width: 100px;
+        border-radius: 10px;
+        font-size: 25px;
+        border-style: none;
+        box-shadow: 1px 1px 5px ;
+        background-color: #3D9970;
+        color: white;
+    }
+    .icons{
+        display: flex;
+        align-items: center;
+        margin-left: 10px;
+        font-size: 20px;
+        gap: 10px;
+    }
+    .outerImage, .outerImage img {
+        height: 250px;
+        width: 250px;
+        margin-left: 50px;
+    }  
+}

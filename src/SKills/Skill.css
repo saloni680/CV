@@ -1,0 +1,469 @@
+
+.innerskill{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 200px;
+}
+.SkillHr{
+    width: 80%;
+    margin:auto;
+    height: 3px;
+    background-color: black;
+    margin-top: 15rem;
+}
+.SkillHrH1{
+    margin-left: 280px;
+    color: #0A2F55;
+}
+.secSkilldiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25rem;
+    font-size: x-large;
+    height: 100px ;
+}
+.Skillsect{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-left: -25rem;    
+}
+.outerbar{
+    height: 10px;
+    width: 40rem;
+    background-color: rgb(95, 90, 90);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.innerbarHtml{
+    height: 10px;
+    width:5rem;
+    border-radius: 10px;
+    background-color: white;
+    animation: scr 2s ease-in-out 2s 1 forwards;
+}
+@keyframes scr {
+    10%{
+        width: 0rem;
+    }
+    100%{
+        width:35rem;
+    }
+}
+.innerbarCSS{
+    height: 10px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: white;
+    animation: scrCSS 2s ease-in-out 2s 1 forwards;
+}
+@keyframes scrCSS {
+    10%{
+        width: 0rem;
+    }
+    100%{
+        width:30rem;
+    }
+}
+.innerbarBootstrap{
+    height: 10px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: white;
+    animation: scrBS 2s ease-in-out 2s 1 forwards;
+}
+@keyframes scrBS {
+    10%{
+        width: 0rem;
+    }
+    100%{
+        width:36rem;
+    }
+}
+.innerbarGhub{
+    height: 10px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: white;
+    animation: scrGhub 2s ease-in-out 2s 1 forwards;
+}
+@keyframes scrGhub {
+    10%{
+        width: 0rem;
+    }
+    100%{
+        width:30rem;
+    }
+}
+.innerbarTwind{
+    height: 10px;
+    width: 5rem;
+    border-radius: 10px;
+    background-color: white;
+    animation: scrTwind 2s ease-in-out 2s 1 forwards;
+}
+@keyframes scrTwind {
+    10%{
+        width: 0rem;
+    }
+    100%{
+        width:33rem;
+    }
+}
+.react{
+    height: 150px;
+    width: 150px;
+    background-color: #0A2F55;
+    color: aliceblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 5rem;
+    border-radius: 10px;
+    
+}
+
+.fa-react{
+    animation: rot infinite 2s ;
+}
+@keyframes rot {
+    0%{ 
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}   
+@media (max-width:1200px) {
+    .secSkilldiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 15rem;
+        font-size: x-large;
+        height: 100px ;
+    }
+    .Skillsect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: -15rem;    
+    }
+}
+@media (max-width:1100px) {
+    .secSkilldiv{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 5rem;
+        font-size: x-large;
+        height: 100px ;
+    }
+    .Skillsect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px;
+        margin-left: -5rem;    
+    }
+}
+@media (max-width:1100px) {
+    .secSkilldiv{
+        /* color: red; */
+    }
+    .ReactMain{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+    }
+    .innerskill{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 35rem;
+        margin-left: -30rem;
+
+    }
+}
+@media (max-width:850px) {
+    .Skillsect{
+        margin:auto;
+    }
+    .ReactMain{
+        margin:auto;
+    }
+    .innerskill{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 35rem;
+        margin-left: -10rem;
+    }
+    .outerbar{
+        height: 10px;
+        width: 25rem;
+        background-color: rgb(95, 90, 90);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .innerbarHtml{
+        height: 10px;
+        width:5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scr 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scr {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:22rem;
+        }
+    }
+    .innerbarCSS{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrCSS 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrCSS {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:20rem;
+        }
+    }
+    .innerbarBootstrap{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrBS 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrBS {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:23rem;
+        }
+    }
+    .innerbarGhub{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrGhub 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrGhub {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:19rem;
+        }
+    }
+    .innerbarTwind{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrTwind 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrTwind {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:20rem;
+        }
+    }
+    .react{
+        height: 150px;
+        width: 150px;
+        background-color: #0A2F55;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        border-radius: 10px;
+        
+    }
+    
+    .fa-react{
+        animation: rot infinite 2s ;
+    }
+    @keyframes rot {
+        0%{ 
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }   
+}
+@media (max-width:500px) {
+    .SkillHrH1{
+        margin-left: 60px;
+        color: #0A2F55;
+    }
+    .outerbar{
+        height: 10px;
+        width: 18rem;
+        background-color: rgb(95, 90, 90);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .innerbarHtml{
+        height: 10px;
+        width:5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scr 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scr {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:15rem;
+        }
+    }
+    .innerbarCSS{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrCSS 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrCSS {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:12rem;
+        }
+    }
+    .innerbarBootstrap{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrBS 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrBS {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:14rem;
+        }
+    }
+    .innerbarGhub{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrGhub 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrGhub {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:16rem;
+        }
+    }
+    .innerbarTwind{
+        height: 10px;
+        width: 5rem;
+        border-radius: 10px;
+        background-color: white;
+        animation: scrTwind 2s ease-in-out 2s 1 forwards;
+    }
+    @keyframes scrTwind {
+        10%{
+            width: 0rem;
+        }
+        100%{
+            width:13rem;
+        }
+    }
+    .react{
+        height: 150px;
+        width: 150px;
+        background-color: #0A2F55;
+        color: aliceblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 5rem;
+        border-radius: 10px;
+        
+    }
+    
+    .fa-react{
+        animation: rot infinite 2s ;
+    }
+    @keyframes rot {
+        0%{ 
+            transform: rotate(0deg);
+        }
+        100%{
+            transform: rotate(360deg);
+        }
+    }   
+}
+@media (max-width:450px) {
+    .Skillsect{
+        margin: auto;
+    }
+    .ReactMain{
+        margin: auto;
+    }
+}
+
+@media (max-width:400px) {
+    .Skillsect{
+        margin: auto;
+    }
+    .SkillHrH1{
+        margin-left: 170px;
+        color: #0A2F55;
+    }
+    .ReactMain{
+        margin-left: 50px;
+    }
+}
+@media (max-width:350px) {
+    .Skillsect {
+        /* display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 30px; */
+        margin: auto;
+    }
+}
